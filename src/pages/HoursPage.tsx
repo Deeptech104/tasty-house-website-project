@@ -39,31 +39,31 @@ const HoursPage = () => {
                 <ul className="space-y-4 text-lg">
                   <li className="flex justify-between items-center pb-2 border-b border-gray-100">
                     <span className="font-medium">Monday</span>
-                    <span className="text-restaurant-orange font-bold">1:00 PM - 11:00 PM</span>
+                    <span className="text-restaurant-orange font-bold">11:00 Am - 10:00 PM</span>
                   </li>
                   <li className="flex justify-between items-center pb-2 border-b border-gray-100">
                     <span className="font-medium">Tuesday</span>
-                    <span className="text-restaurant-orange font-bold">1:00 PM - 11:00 PM</span>
+                    <span className="text-restaurant-orange font-bold">11:00 Am - 10:00 PM</span>
                   </li>
                   <li className="flex justify-between items-center pb-2 border-b border-gray-100">
                     <span className="font-medium">Wednesday</span>
-                    <span className="text-restaurant-orange font-bold">1:00 PM - 11:00 PM</span>
+                    <span className="text-restaurant-orange font-bold">11:00 Am - 10:00 PM</span>
                   </li>
                   <li className="flex justify-between items-center pb-2 border-b border-gray-100">
                     <span className="font-medium">Thursday</span>
-                    <span className="text-restaurant-orange font-bold">1:00 PM - 11:00 PM</span>
+                    <span className="text-restaurant-orange font-bold">11:00 Am - 10:00 PM<</span>
                   </li>
                   <li className="flex justify-between items-center pb-2 border-b border-gray-100">
                     <span className="font-medium">Friday</span>
-                    <span className="text-restaurant-orange font-bold">1:00 PM - 11:00 PM</span>
+                    <span className="text-restaurant-orange font-bold">11:00 AM - 11:00 PM</span>
                   </li>
                   <li className="flex justify-between items-center pb-2 border-b border-gray-100">
                     <span className="font-medium">Saturday</span>
-                    <span className="text-restaurant-orange font-bold">1:00 PM - 11:00 PM</span>
+                    <span className="text-restaurant-orange font-bold">11:00 AM - 11:00 PM</span>
                   </li>
                   <li className="flex justify-between items-center">
                     <span className="font-medium">Sunday</span>
-                    <span className="text-restaurant-orange font-bold">1:00 PM - 11:00 PM</span>
+                    <span className="text-restaurant-orange font-bold">10:00 AM - 9:00 PM</span>
                   </li>
                 </ul>
               </div>
