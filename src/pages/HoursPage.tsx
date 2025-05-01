@@ -1,4 +1,5 @@
 
+import React from 'react';
 import Navbar from '@/components/Layout/Navbar';
 import Footer from '@/components/Layout/Footer';
 import PageHeader from '@/components/Layout/PageHeader';
@@ -8,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const HoursPage = () => {
   return (
-    <>
+    <React.Fragment>
       <Navbar />
       
       <PageHeader 
@@ -39,19 +40,19 @@ const HoursPage = () => {
                 <ul className="space-y-4 text-lg">
                   <li className="flex justify-between items-center pb-2 border-b border-gray-100">
                     <span className="font-medium">Monday</span>
-                    <span className="text-restaurant-orange font-bold">11:00 Am - 10:00 PM</span>
+                    <span className="text-restaurant-orange font-bold">11:00 AM - 10:00 PM</span>
                   </li>
                   <li className="flex justify-between items-center pb-2 border-b border-gray-100">
                     <span className="font-medium">Tuesday</span>
-                    <span className="text-restaurant-orange font-bold">11:00 Am - 10:00 PM</span>
+                    <span className="text-restaurant-orange font-bold">11:00 AM - 10:00 PM</span>
                   </li>
                   <li className="flex justify-between items-center pb-2 border-b border-gray-100">
                     <span className="font-medium">Wednesday</span>
-                    <span className="text-restaurant-orange font-bold">11:00 Am - 10:00 PM</span>
+                    <span className="text-restaurant-orange font-bold">11:00 AM - 10:00 PM</span>
                   </li>
                   <li className="flex justify-between items-center pb-2 border-b border-gray-100">
                     <span className="font-medium">Thursday</span>
-                    <span className="text-restaurant-orange font-bold">11:00 Am - 10:00 PM<</span>
+                    <span className="text-restaurant-orange font-bold">11:00 AM - 10:00 PM</span>
                   </li>
                   <li className="flex justify-between items-center pb-2 border-b border-gray-100">
                     <span className="font-medium">Friday</span>
@@ -143,7 +144,7 @@ const HoursPage = () => {
       </section>
       
       <Footer />
-    </>
+    </React.Fragment>
   );
 };
 
